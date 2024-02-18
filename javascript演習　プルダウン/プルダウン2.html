@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="jp">
+    <head>
+        <meta charset="UTF-8">
+        <title>プルダウン2</title>
+    </head>
+    <body>
+<!--Javascriptによるプルダウンの表示方法-->
+        <select name="age">
+<!--選択肢の内容-->
+            <option>選択してください</option>
+<!--Javascriptでの表記を開始-->
+                <script>
+//iの初期値を18、条件式は65以下、増減式は１つずつ増えるに設定
+                    for(var i=18; i<=65; i++){
+//<option>と</option>で挟んでiに選択肢の効果を付与しながら１の数値を表示
+                        document.write("<option>");
+                        document.write(i);
+                        document.write("</option>");
+                    }
+                </script>
+<!--Javascriptでの表記を終了-->
+        </select>
+    </body>
+</html>
