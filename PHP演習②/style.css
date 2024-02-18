@@ -1,0 +1,143 @@
+header{
+    left: 0px;
+    margin-top: -10px;
+    background-color: black;
+}
+
+.logo{
+    background-color: white;
+}
+
+header ul{
+    line-height: 40px;
+    margin-top: 0px;
+}
+
+header ul li{
+    display: inline-block;
+    left: 20px;
+    list-style: none;
+    font-size: 25px;
+    line-height: 60px;
+    color: white;
+    padding-right: 80px;
+    background-color: black;
+}
+
+.main{
+    text-align: center;
+}
+
+.left{
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width: 70%;
+    height: auto;
+}
+
+.left_title{
+    margin-top: 0px;
+    border-left: 5px solid black;
+    border-bottom: 5px solid gray;
+    margin-left: 0px;
+    padding-left: 10PX;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.main-container{
+    text-align: left;
+    margin-top: 5px;
+}
+
+.form{
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border: 3px lightgray solid;
+    width: 100%-10px;
+}
+
+form div{
+    display: block;
+    padding: 15px;
+}
+
+h1{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border-left: 4px red solid;
+    background-color: whitesmoke;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    width: max-content;
+    font-size: 20px;
+}
+
+.text, textarea{
+    display: block;
+    border:1px solid lightgray;
+    padding: 5px;
+    color: gray;
+    background: white;
+}
+
+.submit{
+    display: block;
+    background-color: gray;
+    color: white;
+    border-radius: 2px;
+}
+
+.kiji{
+    background-color: whitesmoke;
+    border: 3px lightgrey solid;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%-30px;
+}
+
+h3{
+    border-bottom: 2px lightgray solid;
+}
+
+.right{
+    float: right;
+    margin-top: 30px;
+    margin-right: 0px;
+    width: 30%;
+    height: auto;
+}
+
+.right h2{
+    border-bottom: 2px dotted gray;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+
+.right p{
+    font-size: 20px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    margin-left: 30px;
+}
+
+footer{
+    clear:left;
+    height: 60px;
+    left: 10px;
+    right: 10px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    color: white;
+    background-color: black;
+    text-align:center;
+    line-height: 60px;
+}
