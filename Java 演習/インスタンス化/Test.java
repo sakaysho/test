@@ -66,6 +66,20 @@ public class Test {
 	me.walk();
 	me.run();
 	
+	System.out.println(aibo.name);
+	aibo.talk();
+	aibo.walk();
+	aibo.run();
+	
+	System.out.println(asimo.name);
+	asimo.talk();
+	asimo.walk();
+	asimo.run();
+	
+	System.out.println(pepper.name);
+	pepper.talk();
+	pepper.walk();
+	pepper.run();
 	
 	}
 }
